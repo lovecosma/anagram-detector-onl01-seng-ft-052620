@@ -8,6 +8,7 @@ def initialize(word)
 end
 
 def match(array)
+<<<<<<< HEAD
   final_array = []
 array.each do |word|
   split_array = word.chars
@@ -17,6 +18,12 @@ array.each do |word|
   end
   end
   final_array
+=======
+array.each do |word|
+  split_array = word.chars
+    binding.pry
+end
+>>>>>>> 1c63ca92fccdd9b5d570c692497e680d24fad905
 end
 
 
